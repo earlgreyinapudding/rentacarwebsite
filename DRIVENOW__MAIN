@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Drive Now (HOME) </title>
+<style>
+table{
+margin:0 auto 16px auto;
+border-spacing: 30px 0;
+border: 2px solid #D9A441;
+}
+td{
+width: 30px;
+height: 48px;
+background: transparent;
+}
+a{
+color: white;
+text-decoration: none;
+}
+body {
+font-family: Arial,sans-serif;
+margin: 0;
+padding: 24px;
+background-color: #F4F1F8;
+color: #14283F;
+}
+main{
+margin: 0 auto;
+background-color: #14283F;
+}
+h1,h2 {
+text-align: center;
+padding:15px;
+margin: 20px auto;
+}
+h1{
+color: #D9A441;
+}
+h2{
+width:75%;
+color: white;
+border: 2px solid #D9A441;
+}
+h3{
+text-align: center;
+color:white;
+}
+.list{
+display: flex;
+justify-content: space-around;
+}
+ul,ol{
+display:inline-block;
+vertical-align: top;
+margin: 20px 24px;
+font-size: 30px;
+border: 5px solid #D9A441;
+text-align: left;
+color: white;
+}
+.imgs{
+display: flex;
+justify-content:center;
+gap:20px;
+}
+img{
+max-width:300px;
+max-height:250px;
+}
+</style>
+</head>
+<body>
+<main>
+<table aria-label="TAB">
+<tr>
+<td><a href="DRIVENOW_MAIN.html">HOME</a></td> <td><a href="DRIVENOW_CARS.html">CARS</a></td> <td><a href="DRIVENOW_DEALS.html">DEALS</a></td><td><a href="DRIVENOW_FORM.html">YOUR DETAILS</a></td>
+</tr>
+</table>
+<h1>Welcome To Drive Now! </h1>
+<h2> Drive Now is a car rental company specialising in renting your dream car for a day, days, weeks, even MONTHS!   </h2>
+<h1>About Us</h1>
+<h2>Drive Now offers a wide selection of cars, allowing customers to choose a vehicle that best suits their needs and the journey they plan. Whether it is a short trip, a family holiday, or a longer adventure, customers can explore a range of vehicles and find one that meets their requirements.
+The selection includes a variety of well-known car brands, each offering different models, sizes and features. Customers can choose between smaller cars for everyday journeys or larger vehicles that provide additional space and comfort for longer trips. This variety ensures that there is a suitable option for different preferences and budgets.
+By offering a range of vehicles, Drive Now aims to make the car rental experience simple and convenient, allowing every customer to find the right car for their journey.</h2>
+<div class="list">
+<div>
+<h3>BRANDS</h3>
+<ul>
+<li>BMW</li>
+<li>Audi</li>
+<li>Renault</li>
+<li>Mercedes</li>
+</ul>
+</div>
+<div>
+<h3>POPULAR CARS</h3>
+<ol>
+<li>BMW M3</li>
+<li>Audi RS6</li>
+<li>Mercedes C63</li>
+<li>Renault Clio</li>
+</ol>
+</div>
+</div>
+<h2> So don't wait and begin your journey with us <a href="DRIVENOW_FORM.html">CLICK here to start</a> </h2>
+<div class="imgs">
+<img src="car1.png" alt="ERROR">
+<img src="car2.png" alt="ERROR">
+<img src="car3.png" alt="ERROR">
+</div>
+</main>
+</body>
+</html>
