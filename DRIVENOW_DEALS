@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Drive Now (DEALS) </title>
+<style>
+.TAB{
+margin:16px auto;
+border-spacing: 15px;
+border: 2px solid;
+width: 30px;
+height: 48px;
+background: transparent;
+}
+a{
+color: black;
+text-decoration: none;
+}
+h1,h2{
+text-align: center;
+padding:5px;
+margin: 20px auto;
+}
+h2{
+border: 2px solid;
+background:#F4F6F8;
+color:#333333;
+}
+h1{
+color:#14243A;
+font-size:36px;
+}
+.DEALS{
+border: 3px solid;
+margin: 16px auto;
+border-spacing:0;
+}
+.DEALS td {
+border: 1px solid black;
+padding: 12px;
+}
+body{
+font-family: Arial, sans-serif;
+background: white;
+margin:0;
+padding: 24px;
+}
+main{
+margin: 40px;
+background: #E8EDF2;
+}
+.IMGS{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:25px;
+}
+
+.IMGS img{
+width:200px;
+height:250px;
+object-fit:cover;
+}
+</style>
+</head>
+<body>
+<main>
+<table class="TAB" aria-label="TAB">
+<tr>
+<td><a href="DRIVENOW_MAIN.html">HOME</a></td> <td><a href="DRIVENOW_CARS.html">CARS</a></td> <td><a href="DRIVENOW_DEALS.html">DEALS</a></td><td><a href="DRIVENOW_FORM.html">YOUR DETAILS</a></td>
+</tr>
+</table>
+<h1> CAR DEALS </h1>
+<h2> Explore our range of car rental deals and see which offers you are eligible for. Drive Now offers a variety of age-based discounts, giving customers different opportunities to save when renting a vehicle. Each offer is designed with different drivers in mind, helping make our rental services accessible to a wider range of customers. Every deal comes with its own requirements and benefits, so it is worth taking the time to look through the available options. You may find a discount that makes your chosen vehicle even more affordable. Browse through the offers, check the age requirements and see which deal you can apply to your booking.
+</h2>
+<div class="IMGS">
+
+<img src="deal1.png" alt="Car rental deal">
+<table class="DEALS" aria-label="DEALS">
+<tr><td><b>DEAL</b></td><td><b>DISCOUNT</b></td></tr>
+<tr><td>10 years driving experience</td><td>5% off</td></tr>
+<tr><td>Regular customer</td><td>10% off</td></tr>
+<tr><td>First time with DRIVE NOW</td><td>Free Pickup</td></tr>
+<tr><td>Over age 30</td><td>5% off</td></tr>
+<tr><td>Family booking</td><td>Free child seat</td></tr>
+<tr><td>14+ Days Renting</td><td>15% off</td></tr>
+</table>
+
+<img src="deal2.png" alt="ERROR">
+</div>
+
+</main>
+</body>
+</html>
